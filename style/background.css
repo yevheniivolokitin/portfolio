@@ -1,0 +1,188 @@
+.background {
+   background-image: url("../image/Top-7-Programing-Languages-for-Web-Development.jpg");
+   width: 100%;
+   height: 765px;
+   background-size: cover;
+   background-repeat: no-repeat;
+   position: relative;
+}
+.logo {
+   background-color: black;
+   padding: 15px 30px;
+   color: #c55ec5;
+   font-size: 40px;
+   width: 190px;
+   border-radius: 60%;
+   -webkit-box-shadow: -9px -12px 5px 0px rgba(0, 0, 0, 0.75);
+   -moz-box-shadow: -9px -12px 5px 0px rgba(0, 0, 0, 0.75);
+   box-shadow: -9px -12px 5px 0px rgba(0, 0, 0, 0.75);
+}
+.header-inner {
+   display: flex;
+   justify-content: space-between;
+   padding-top: 27px;
+   position: relative;
+}
+.navigate_header {
+   width: 510px;
+   display: flex;
+   justify-content: space-between;
+   position: absolute;
+   right: 0px;
+}
+.nav_link-head {
+   color: white;
+   font-weight: 400;
+   font-size: 18px;
+   line-height: 23px;
+   text-decoration: none;
+   text-transform: lowercase;
+}
+.back-title {
+   font-style: normal;
+   font-weight: 400;
+   font-size: 80px;
+   line-height: 70px;
+   color: #c55ec5;
+   max-width: 970px;
+}
+.back-subtitle {
+   font-style: normal;
+   font-weight: 400;
+   font-size: 20px;
+   line-height: 26px;
+   color: white;
+   max-width: 430px;
+   margin-bottom: 29px;
+}
+.text-background {
+   position: absolute;
+   bottom: 89px;
+}
+.burger {
+   background-color: rgba(0, 0, 0, 0.3);
+   width: 100%;
+   height: 100vh;
+   position: absolute;
+   top: 0;
+   left: 0;
+   display: none;
+}
+.burger-content {
+   width: 362px;
+   height: 100vh;
+   position: fixed;
+   right: 0px;
+   top: 0px;
+   background-color: black;
+   display: none;
+}
+.burger-inner {
+   width: 100%;
+   height: 100%;
+   position: relative;
+}
+.link-burg_blocks {
+   color: white;
+   font-style: normal;
+   font-weight: 400;
+   font-size: 25px;
+   line-height: 32px;
+   text-transform: uppercase;
+   text-decoration: none;
+   padding-bottom: 21px;
+}
+.link-burg_social {
+   font-style: normal;
+   font-weight: 400;
+   font-size: 20px;
+   line-height: 46px;
+   color: white;
+   text-decoration: none;
+}
+.burger-social > h2 {
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 21px;
+   color: white;
+   opacity: 0.5;
+}
+.burger-text {
+   position: absolute;
+   top: 156px;
+   left: 37px;
+}
+.burger-blocks {
+   display: flex;
+   flex-direction: column;
+   padding-top: 37px;
+}
+.burger-social {
+   padding-top: 91px;
+   display: flex;
+   flex-direction: column;
+}
+.burger-open {
+   display: block;
+   transition: 2s all ease;
+}
+.burger_content_open {
+   display: block;
+}
+@media (max-width: 1199px) {
+   .logo-burger {
+      left: 28px;
+      top: 64px;
+      position: absolute;
+      background-color: black;
+      padding: 15px 30px;
+      color: #c55ec5;
+      font-size: 40px;
+      width: 190px;
+      border-radius: 60%;
+      -webkit-box-shadow: -9px -12px 5px 0px rgba(0, 0, 0, 0.75);
+      -moz-box-shadow: -9px -12px 5px 0px rgba(0, 0, 0, 0.75);
+      box-shadow: -9px -12px 5px 0px rgba(0, 0, 0, 0.75);
+      border: 1px solid #c55ec5;
+   }
+   .navigate_header {
+      display: none;
+   }
+   .back-title {
+      max-width: 770px;
+      font-weight: 400;
+      font-size: 60px;
+      line-height: 70px;
+   }
+   .text-background {
+      bottom: 60px;
+   }
+   .burger-btn {
+      width: 36px;
+      height: 27px;
+      position: absolute;
+      right: 13px;
+      background-image: url("../image/icon-burger.png");
+      z-index: 30;
+   }
+   .burger-btn-open {
+      width: 23px;
+      height: 23px;
+      background-image: url("../image/icon_close-burger.png");
+      z-index: 31;
+   }
+}
+@media (max-width: 767px) {
+   .back-subtitle {
+      font-weight: 400;
+      font-size: 15px;
+      line-height: 20px;
+      max-width: 310px;
+   }
+   .back-title {
+      font-weight: 400;
+      font-size: 40px;
+      line-height: 47px;
+      max-width: 500px;
+   }
+}
